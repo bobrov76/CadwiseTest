@@ -1,0 +1,15 @@
+C:\ScoolApp\asp\wordProcessing\bin\Debug\wordProcessing.exe.config
+C:\ScoolApp\asp\wordProcessing\bin\Debug\wordProcessing.exe
+C:\ScoolApp\asp\wordProcessing\bin\Debug\wordProcessing.pdb
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.csprojAssemblyReference.cache
+C:\ScoolApp\asp\wordProcessing\obj\Debug\MainWindow.g.cs
+C:\ScoolApp\asp\wordProcessing\obj\Debug\App.g.cs
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing_MarkupCompile.cache
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing_MarkupCompile.lref
+C:\ScoolApp\asp\wordProcessing\obj\Debug\MainWindow.baml
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.g.resources
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.Properties.Resources.resources
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.csproj.GenerateResource.cache
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.csproj.CoreCompileInputs.cache
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.exe
+C:\ScoolApp\asp\wordProcessing\obj\Debug\wordProcessing.pdb

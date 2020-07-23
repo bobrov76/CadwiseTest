@@ -1,0 +1,49 @@
+﻿<Window x:Class="ATM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="542.8" Width="1068">
+    <Grid>
+        <Button Content="Выдача денег" x:Name="giveMoneyBt" HorizontalAlignment="Left" Margin="687,10,0,0" VerticalAlignment="Top" Width="350" Height="24"/>
+        <Button Content="Прием денег" x:Name="takeMoneyBt" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="350" Height="24"/>
+        <Label Content="Режим - " x:Name="statusLable" HorizontalAlignment="Left" Margin="328,44,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button Content="50 руб." x:Name="oneBt" HorizontalAlignment="Left" Margin="24,119,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+        <Button Content="100 руб." x:Name="twoBt" HorizontalAlignment="Left" Margin="233,119,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+        <Button Content="200 руб." x:Name="threeBt" HorizontalAlignment="Left" Margin="433,119,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+        <Button Content="500 руб." x:Name="fourBt" HorizontalAlignment="Left" Margin="24,211,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+        <Button Content="1000 руб." x:Name="fiveBt" HorizontalAlignment="Left" Margin="233,211,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+        <Button Content="5000 руб." x:Name="sixBt" HorizontalAlignment="Left" Margin="433,211,0,0" VerticalAlignment="Top" Width="150" Height="50"/>
+        <Label Content="Сумма - " HorizontalAlignment="Left" Margin="116,309,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="amauntTB" IsEnabled="False" HorizontalAlignment="Left" Height="31" Margin="198,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+        <Button Content="Принять" x:Name="addBtn" HorizontalAlignment="Left" Margin="383,312,0,0" VerticalAlignment="Top" Width="121" Height="31"/>
+        <Label Content="Label" x:Name="fiftyLable" HorizontalAlignment="Left" Margin="24,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" x:Name="fiveThousandLable" HorizontalAlignment="Left" Margin="433,185,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" x:Name="hundredLable" HorizontalAlignment="Left" Margin="233,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" x:Name="twoHundredLable" HorizontalAlignment="Left" Margin="433,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" x:Name="fiveHundredLable" HorizontalAlignment="Left" Margin="24,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.76,3.676"/>
+        <Label Content="Label" x:Name="thousandLable" HorizontalAlignment="Left" Margin="233,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Всего в банкомате - 0" x:Name="countLable" HorizontalAlignment="Left" Margin="365,5,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <CheckBox x:Name="fiftyCB" Content="50 руб" HorizontalAlignment="Left" Margin="687,153,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="hundredCB" Content="100 руб" HorizontalAlignment="Left" Margin="687,173,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="twoHundredCB" Content="200 руб" HorizontalAlignment="Left" Margin="687,193,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="fiveHundredCB" Content="500 руб" HorizontalAlignment="Left" Margin="687,213,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="thousandCB" Content="1000 руб" HorizontalAlignment="Left" Margin="687,233,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="fiveThousandCB" Content="5000 руб" HorizontalAlignment="Left" Margin="687,253,0,0" VerticalAlignment="Top"/>
+        <Button Content="Выдать" x:Name="getBtn" HorizontalAlignment="Left" Margin="699,312,0,0" VerticalAlignment="Top" Width="299" Height="31"/>
+        <Label Content="Выберите наменалы " HorizontalAlignment="Left" Margin="755,106,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <GridSplitter HorizontalAlignment="Left" Height="503" Margin="642,0,0,0" VerticalAlignment="Top" Width="7"/>
+        <Label Content="Сумма - " HorizontalAlignment="Left" Margin="654,54,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="getSummTB" HorizontalAlignment="Left" Height="31" Margin="736,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301"/>
+        <Label Content="Выдано" HorizontalAlignment="Left" Margin="811,348,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getOneLable" HorizontalAlignment="Left" Margin="687,378,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getTwoLable"  HorizontalAlignment="Left" Margin="687,412,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getFourLable" HorizontalAlignment="Left" Margin="687,446,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getThreeLable"  HorizontalAlignment="Left" Margin="865,412,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getFiveLable" HorizontalAlignment="Left" Margin="865,378,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getSixLable"  HorizontalAlignment="Left" Margin="865,446,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="getSevenLable"  HorizontalAlignment="Left" Margin="687,477,0,-9.4" VerticalAlignment="Top" FontSize="18"/>
+    </Grid>
+</Window>

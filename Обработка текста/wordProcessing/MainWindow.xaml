@@ -1,0 +1,21 @@
+﻿<Window x:Class="wordProcessing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wordProcessing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="680" WindowStartupLocation="CenterScreen" MinWidth="680" MinHeight="200" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Выбрать файл" x:Name="openFileBtn" HorizontalAlignment="Left" Margin="494,16,0,0" VerticalAlignment="Top" Width="158" Height="32"/>
+        <Button Content="Обработать и сохранить" x:Name="saveTextBtn" HorizontalAlignment="Left" Margin="494,53,0,0" VerticalAlignment="Top" Width="158" Height="32" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" x:Name="lengthTb" Height="23" Margin="185,13,0,0"  VerticalAlignment="Top" Width="160"/>
+        <TextBox HorizontalAlignment="Left" MaxLength="1" x:Name="charactersTb" Height="23" Margin="185,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" UndoLimit="1"/>
+        <Label Content="Минимальная длинна слова" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Label Content="Лишний знак припинания" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,41,0,0"/>
+        <CheckBox Content="Применить" x:Name="isSelectLengthTB" HorizontalAlignment="Left" Margin="356,16,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Применить" x:Name="isCharactersTB" HorizontalAlignment="Left" Margin="356,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Статус:" x:Name="statusLable" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,90,0,0"/>
+
+    </Grid>
+</Window>
